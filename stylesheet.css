@@ -1,0 +1,344 @@
+/* masthead */
+.masthead {
+    background-image: url("newspaper.jpg");
+}
+
+
+
+/* name banner */
+#name-banner {
+    font-size: 4em;
+    font-family: "PT Sans", sans-serif;
+    color:#fc7c7c;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+
+
+
+/* title */
+#title {
+    font-size:2.25em;
+    font-family: "PT Serif", serif;
+    font-style: italic;
+    text-transform: lowercase;
+    color:white;
+    letter-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* masthead menu start */
+.menu-item {
+    font-size: 1.5em;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.menu-link {
+    color:white;
+    text-decoration: underline;
+}
+
+.menu-link:hover {
+    color:#fc7c7c
+}
+
+.spacer-bar{
+    color:white;
+    font-size:1.75em;
+    font-weight: bolder;
+}
+/* masthead menu end */
+
+
+
+
+/* mobile navbar start */
+.mobile-navbar {
+    color: white;
+    position: relative;
+    z-index:1;
+}
+
+.nav-item {
+    font-family: "PT Sans", sans-serif;
+}
+
+.navbar-toggler {
+    color: #fc7c7c;
+}
+
+.nav-link:hover {
+    color:#fc7c7c;
+}
+/* mobile navbar end */
+
+
+/* page wrapper */
+#page-wrapper {
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+/* section formatting */
+.col-lg-10 {
+    margin:0 auto;
+}
+
+.col-lg-6 {
+    margin:0 auto;
+}
+
+.section {
+    padding-top:30px;
+    padding-bottom:0px;
+    margin:0 auto:
+}
+
+#about-me {
+    padding-top: 25px;
+}
+
+#experience {
+    margin:0 auto;
+}
+
+#education {
+    margin:0 auto;
+}
+
+#skills {
+    margin:0 auto;
+}
+
+#clips {
+    margin:0 auto;
+}
+
+#awards {
+    margin:0 auto;
+}
+
+#contact {
+    margin:0 auto;
+}
+
+
+/* section header styling */
+.section-header {
+    font-size:2.5em;
+    font-family: "PT Serif", serif;
+    text-transform: uppercase;
+    color:#fc7c7c;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-bottom:10px;
+    margin-top:-5px;
+}
+
+
+
+/* button styling */
+button {
+    background-color:black;
+    color:white;
+}
+
+.accordion-button:hover {
+    color:#fc7c7c;
+}
+
+
+
+
+
+/* inner sytling start */
+.copy {
+    font-size: 1em;
+    font-family: "PT Sans", sans-serif;
+    color: black;
+    padding-top:1px;
+    padding-bottom:1px;
+    text-align: left;
+}
+
+.copy-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.copy-organization {
+    font-size: 1.25em;
+}
+
+.copy-date {
+    font-style:italic;
+    font-size: 1.25em;
+}
+
+.copy-description {
+    font-size: 1em;
+    padding-bottom:15px;
+}
+
+.copy-degree {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top:5px;
+}
+
+.copy-school {
+    font-size: 1.25em;
+}
+
+.copy-school-date {
+    font-style:italic;
+    font-size: 1.25em;
+    padding-bottom:30px;
+}
+/* inner styling end */
+
+
+
+
+/* skills accordion start */
+.skills-accordion {
+    width: 100%;
+    margin:auto;
+    padding-bottom:15px;
+}
+
+.accordion-button {
+    font-size:1.25em;
+}
+
+.copy-skill-tab {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.copy-skill-item {
+    font-size: 1em;
+    font-style:italic;
+    padding-bottom: 5px;
+}
+/* skills accordion end */
+
+
+
+
+
+/* clip cards start */
+
+.card-headline {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-subhead {
+    font-size:1em;
+    font-style:italic;
+}
+
+.card-date {
+    font-size: 1em;
+}
+/* clip cards end */
+
+
+
+
+
+/* contact start */
+.contact-item {
+    display:inline;
+    font-size:3em;
+    padding-left: 80px;
+    padding-right: 80px;
+    color:black;
+}
+
+.contact-item:hover {
+    color:#fc7c7c
+}
+/* contact end */
+
+
+
+
+/* footer start */
+footer {
+    background-image: url("newspaper.jpg");
+}
+
+/* footer end */
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 999px) { 
+    #intro-desktop {
+        display:none;
+    }
+
+    #intro-mobile {
+        padding-bottom:40px;
+    }
+
+    #profile-img-mobile {
+        padding-top:10px;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .col-lg-8 {
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    .contact-item {
+        display: block;
+        padding-top:20px;
+        padding-bottom:50px;
+        margin-right:23px;
+    }
+
+    .mobile-navbar {
+        position:sticky;
+        top:0;
+        background-color: white;
+    }
+
+    #experience {
+        padding-top:0px;
+    }
+}
+
+@media only screen and (min-width: 999px) {
+    #intro-mobile {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .mobile-navbar{
+        display:none;
+    }
+}
