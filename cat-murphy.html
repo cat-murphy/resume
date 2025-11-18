@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
@@ -27,10 +26,8 @@
         href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 
-
     <!-- external CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
 </head>
 
 <body>
@@ -111,52 +108,50 @@
     <!--page wrapper-->
     <div id="page-wrapper" class="col-lg-10 mx-auto lead">
 
-    <!--about me start-->
-    <div id="about-me" class="section">
-        <h2 class="section-header text-center">About Me</h2>
+        <!--about me start-->
+        <div id="about-me" class="section col-lg-10">
+            <h2 class="section-header text-center">About Me</h2>
 
-        <!-- DESKTOP / TABLET -->
-        <div id="intro-desktop" class="container d-none d-md-block">
-            <div class="row align-items-stretch py-4">
-
-                <div class="col-md-6 d-flex">
-                    <p class="copy my-auto">
-                        Cat is a second-year master's student and investigative journalism fellow at the
-                        Philip Merrill College of Journalism at the University of Maryland. She is a driven
-                        and confident reporter dedicated to using journalism to hold those in power accountable.
-                        She is a curious, eager reporter with coding experience and a gift for obtaining and
-                        analyzing data and public records.
-                    </p>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="about-img-wrapper">
-                        <img src="https://cat-murphy.github.io/resume/profile.jpeg"
-                            alt="Profile picture of Cat Murphy"
-                            class="img-fluid about-img">
+            <!-- Desktop / tablet layout -->
+            <div id="intro-desktop" class="about-layout-desktop d-none d-md-block">
+                <div class="row g-4 align-items-stretch py-3">
+                    <!-- Left column: text -->
+                    <div class="col-md-6 d-flex">
+                        <p class="copy my-auto">
+                            Cat is a second-year master's student and investigative journalism fellow at the
+                            Philip Merrill College of Journalism at the University of Maryland. She is a driven
+                            and confident reporter dedicated to using journalism to hold those in power accountable.
+                            She is a curious, eager reporter with coding experience and a gift for obtaining and
+                            analyzing data and public records.
+                        </p>
+                    </div>
+                    <!-- Right column: image -->
+                    <div class="col-md-6">
+                        <div class="about-img-wrapper">
+                            <img src="https://cat-murphy.github.io/resume/profile.jpeg"
+                                class="img-fluid about-img"
+                                alt="Profile picture of Cat Murphy" loading="lazy">
+                        </div>
                     </div>
                 </div>
+            </div>
 
+            <!-- Mobile layout -->
+            <div id="intro-mobile" class="about-mobile d-md-none">
+                <p class="copy">
+                    Cat is a second-year master's student and investigative journalism fellow at the
+                    Philip Merrill College of Journalism at the University of Maryland. She is a driven
+                    and confident reporter dedicated to using journalism to hold those in power accountable. 
+                    She is a curious, eager reporter with coding experience and a gift for obtaining and 
+                    analyzing data and public records.
+                </p>
+                <img src="https://cat-murphy.github.io/resume/profile.jpeg"
+                    id="profile-img-mobile"
+                    class="img-fluid"
+                    alt="Profile picture of Cat Murphy" loading="lazy">
             </div>
         </div>
-
-        <!-- MOBILE -->
-        <div id="intro-mobile" class="container d-md-none text-center">
-            <p class="copy">
-                Cat is a second-year master's student and investigative journalism fellow at the
-                Philip Merrill College of Journalism at the University of Maryland. She is a driven
-                and confident reporter dedicated to using journalism to hold those in power accountable. 
-                She is a curious, eager reporter with coding experience and a gift for obtaining and 
-                analyzing data and public records.
-            </p>
-
-            <img src="https://cat-murphy.github.io/resume/profile.jpeg"
-                id="profile-img-mobile"
-                alt="Profile picture of Cat Murphy"
-                class="img-fluid mt-3">
-        </div>
-    </div>
-    <!--about me end-->
+        <!--about me end-->
 
         <!--experience start-->
         <div id="experience" class="section col-lg-10">
@@ -183,10 +178,10 @@
             <div class="copy copy-organization">The Quinnipiac Chronicle</div>
             <div class="copy copy-date">April 2023-April 2024</div>
             <div class="copy copy-description">
-                <p> Oversaw the independent student newspaper's news section. Amassed over 130 reporting bylines and
+                <p>Oversaw the independent student newspaper's news section. Amassed over 130 reporting bylines and
                 several state, regional and national awards covering a wide range of campus news topics. Collaborated with other
                 editors to determine, assign, copyedit and publish weekly coverage. Wrote headlines, captions, SEO and meta descriptions for all digital news content.</p>
-                </div>
+            </div>
         </div>
         <!--experience end-->
 
@@ -337,8 +332,9 @@
                     </div>
                 </article>
 
+            </div>
         </div>
-        <!--clips end-->     
+        <!--clips end-->
 
         <!--awards start-->
         <div id="awards" class="section">
@@ -371,25 +367,25 @@
                     <article class="award-card">
                         <div class="award-card-content">
                             <h3 class="award-article-title"><a href="https://quchronicle.com/85524/news/accusations-behind-quinnipiac-womens-lacrosse-coach-sudden-exit/" target="_blank">What happened to TK?</a></h3>
-                            
+
                             <div class="award-content-columns">
-                                
+
                                 <div class="awards-list">
-                                <div class="award-item">
-                                    <div class="copy copy-title">Second Place, 2024 Student Journalism Prize for Investigative Reporting on Intercollegiate Athletics</div>
-                                    <div class="copy copy-organization">Drake Group Education Fund</div>
-                                    <div class="copy copy-date">April 2024</div>
-                                </div>
-                                <div class="award-item">
-                                    <div class="copy copy-title">First Place, Sports News Story</div>
-                                    <div class="copy copy-organization">Connecticut Chapter of the Society of Professional Journalists</div>
-                                    <div class="copy copy-date">June 2024</div>
-                                </div>
-                                <div class="award-item">
-                                    <div class="copy copy-title">Second Place, News Story</div>
-                                    <div class="copy copy-organization">New England Newspaper & Press Association</div>
-                                    <div class="copy copy-date">June 2024</div>
-                                </div>
+                                    <div class="award-item">
+                                        <div class="copy copy-title">Second Place, 2024 Student Journalism Prize for Investigative Reporting on Intercollegiate Athletics</div>
+                                        <div class="copy copy-organization">Drake Group Education Fund</div>
+                                        <div class="copy copy-date">April 2024</div>
+                                    </div>
+                                    <div class="award-item">
+                                        <div class="copy copy-title">First Place, Sports News Story</div>
+                                        <div class="copy copy-organization">Connecticut Chapter of the Society of Professional Journalists</div>
+                                        <div class="copy copy-date">June 2024</div>
+                                    </div>
+                                    <div class="award-item">
+                                        <div class="copy copy-title">Second Place, News Story</div>
+                                        <div class="copy copy-organization">New England Newspaper & Press Association</div>
+                                        <div class="copy copy-date">June 2024</div>
+                                    </div>
                                 </div>
 
                                 <blockquote class="judges-quote">
@@ -397,20 +393,20 @@
                                     Quinnipiac Chronicle reporter Cat Murphy had immediate reason to doubt her university's four-sentence statement wishing the women's lacrosse coach well "in her future endeavors" -- in a different job. Through dogged reporting, Murphy helped her campus understand that the coach had not inappropriately sent an injured player onto the field, as the school had suggested. Murphy overcame many reporting obstacles, guided by terrific sourcing and use of documents.
                                 </blockquote>
 
-                                </div>
                             </div>
+                        </div>
                     </article>
 
                     <article class="award-card">
                         <div class="award-card-content">
                             <h3 class="award-article-title"><a href="https://quchronicle.com/85766/featured/quinnipiac-hedge-funds-cayman-islands/" target="_blank">Quinnipiac's $48M hedge fund portfolio</a></h3>
-                            
+
                             <div class="award-content-columns">
                                 <blockquote class="judges-quote">
                                     <div class="quote-attribution">New England Newspaper & Press Association:</div>
                                     Can't wait to see where Cat Murphy lands when her professional journalism career begins. She is a star in the making. She tells this story so naturally, so informationally, and so simply but compellingly.
                                 </blockquote>
-                                
+
                                 <div class="awards-list">
                                     <div class="award-item">
                                         <div class="copy copy-title">First Place, News Story</div>
@@ -430,33 +426,33 @@
                     <article class="award-card">
                         <div class="award-card-content">
                             <h3 class="award-article-title"><a href="https://quchronicle.com/80130/featured/south-quad-construction-raises-accessibility-concerns/" target="_blank">Campus Accessibility Series</a></h3>
-                            
-                            <div class="award-content-columns">
-                                
-                                <div class="awards-list">
-                                <div class="award-item">
-                                    <div class="copy copy-title">First Place, In-depth Reporting</div>
-                                    <div class="copy copy-organization">New England Newspaper & Press Association</div>
-                                    <div class="copy copy-date">March 2024</div>
-                                </div>
-                                <div class="award-item">
-                                    <div class="copy copy-title">Stories in the series:</div>
-                                    <ul class="accessibility-links">
-                                        <li><a href="https://quchronicle.com/80130/featured/south-quad-construction-raises-accessibility-concerns/" target="_blank">South Quad construction raises accessibility concerns</a></li>
-                                        <li><a href="https://quchronicle.com/79142/news/quinnipiac-administration-commits-to-campus-accessibility-amid-sga-resolution/" target="_blank">Quinnipiac administration commits to campus accessibility amid SGA resolution</a></li>
-                                        <li><a href="https://quchronicle.com/78713/featured/sga-calls-on-quinnipiac-to-audit-office-of-student-accessibility-over-accessibility-concerns/" target="_blank">SGA calls on Quinnipiac to audit Office of Student Accessibility over accessibility concerns</a></li>
-                                        <li><a href="https://quchronicle.com/78633/news/sidewalk-construction-temporarily-shuts-down-accessible-entrance-to-three-residence-halls/" target="_blank">Sidewalk construction temporarily shuts down accessible entrance to three residence halls</a></li>
-                                        <li><a href="https://quchronicle.com/82886/news/qu-addresses-campus-classroom-accessibility/" target="_blank">QU addresses campus classroom accessibility</a></li>
-                                        <li><a href="https://quchronicle.com/80157/news/qu-addresses-legal-accessibility-concerns/" target="_blank">QU addresses legal accessibility concerns</a></li>
-                                        <li><a href="https://quchronicle.com/77980/news/quinnipiac-yet-to-replace-more-than-200-inaccessible-braille-signs/" target="_blank">Quinnipiac yet to replace more than 200 inaccessible braille signs</a></li>
-                                    </ul>
-                                </div>
-                            </div>
 
-                            <blockquote class="judges-quote">
+                            <div class="award-content-columns">
+
+                                <div class="awards-list">
+                                    <div class="award-item">
+                                        <div class="copy copy-title">First Place, In-depth Reporting</div>
+                                        <div class="copy copy-organization">New England Newspaper & Press Association</div>
+                                        <div class="copy copy-date">March 2024</div>
+                                    </div>
+                                    <div class="award-item">
+                                        <div class="copy copy-title">Stories in the series:</div>
+                                        <ul class="accessibility-links">
+                                            <li><a href="https://quchronicle.com/80130/featured/south-quad-construction-raises-accessibility-concerns/" target="_blank">South Quad construction raises accessibility concerns</a></li>
+                                            <li><a href="https://quchronicle.com/79142/news/quinnipiac-administration-commits-to-campus-accessibility-amid-sga-resolution/" target="_blank">Quinnipiac administration commits to campus accessibility amid SGA resolution</a></li>
+                                            <li><a href="https://quchronicle.com/78713/featured/sga-calls-on-quinnipiac-to-audit-office-of-student-accessibility-over-accessibility-concerns/" target="_blank">SGA calls on Quinnipiac to audit Office of Student Accessibility over accessibility concerns</a></li>
+                                            <li><a href="https://quchronicle.com/78633/news/sidewalk-construction-temporarily-shuts-down-accessible-entrance-to-three-residence-halls/" target="_blank">Sidewalk construction temporarily shuts down accessible entrance to three residence halls</a></li>
+                                            <li><a href="https://quchronicle.com/82886/news/qu-addresses-campus-classroom-accessibility/" target="_blank">QU addresses campus classroom accessibility</a></li>
+                                            <li><a href="https://quchronicle.com/80157/news/qu-addresses-legal-accessibility-concerns/" target="_blank">QU addresses legal accessibility concerns</a></li>
+                                            <li><a href="https://quchronicle.com/77980/news/quinnipiac-yet-to-replace-more-than-200-inaccessible-braille-signs/" target="_blank">Quinnipiac yet to replace more than 200 inaccessible braille signs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <blockquote class="judges-quote">
                                     <div class="quote-attribution">New England Newspaper & Press Association:</div>
                                     This series is an excellent example of in-depth reporting that effected change. The reporter supported her findings with strong data that clearly showed that the university was grossly noncompliant with the Americans with Disabilities Act. Cat Murphy is a force to be reckoned with - and Quinnipiac is better off because of her.
-                            </blockquote>
+                                </blockquote>
                             </div>
                         </div>
                     </article>
@@ -464,6 +460,7 @@
             </div>
         </div>
         <!--awards end-->
+
         <!--contact start-->
         <div id="contact" class="section col-lg-12">
             <h2 class="section-header">Contact</h2>
