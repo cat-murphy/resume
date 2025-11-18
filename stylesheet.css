@@ -1,13 +1,21 @@
+/* Dark Mode Styles */
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+}
+
 /* masthead */
 .masthead {
+    background-color: #1a1a1a;
     background-image: url("newspaper.jpg");
+    background-blend-mode: overlay;
 }
 
 /* name banner */
 #name-banner {
     font-size: 4em;
     font-family: "PT Sans", sans-serif;
-    color: #fc7c7c;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 20px;
 }
@@ -18,7 +26,7 @@
     font-family: "PT Serif", serif;
     font-style: italic;
     text-transform: lowercase;
-    color: white;
+    color: #e0e0e0;
     letter-spacing: 5px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -35,16 +43,16 @@
 }
 
 .menu-link {
-    color: white;
+    color: #e0e0e0;
     text-decoration: underline;
 }
 
 .menu-link:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 
 .spacer-bar {
-    color: white;
+    color: #e0e0e0;
     font-size: 1.75em;
     font-weight: bolder;
 }
@@ -52,9 +60,10 @@
 
 /* mobile navbar start */
 .mobile-navbar {
-    color: white;
+    color: #e0e0e0;
     position: relative;
     z-index: 1;
+    background-color: #1a1a1a !important;
 }
 
 .nav-item {
@@ -62,11 +71,19 @@
 }
 
 .navbar-toggler {
-    color: #fc7c7c;
+    border-color: #e0e0e0;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.nav-link {
+    color: #e0e0e0;
 }
 
 .nav-link:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 /* mobile navbar end */
 
@@ -114,7 +131,7 @@
     font-size: 2.5em;
     font-family: "PT Serif", serif;
     text-transform: uppercase;
-    color: #fc7c7c;
+    color: #ffffff;
     font-weight: bold;
     letter-spacing: 5px;
     padding-bottom: 10px;
@@ -123,19 +140,20 @@
 
 /* button styling */
 button {
-    background-color: black;
-    color: white;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444;
 }
 
 .accordion-button:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 
 /* inner styling start */
 .copy {
     font-size: 1em;
     font-family: "PT Sans", sans-serif;
-    color: black;
+    color: #e0e0e0;
     padding-top: 1px;
     padding-bottom: 1px;
     text-align: left;
@@ -177,28 +195,59 @@ button {
 }
 /* inner styling end */
 
-/* skills accordion start */
-.skills-accordion {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 15px;
+/* skills grid start */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin: 30px auto;
+    padding: 0;
 }
 
-.accordion-button {
-    font-size: 1.25em;
+.skill-category {
+    text-align: left;
 }
 
-.copy-skill-tab {
-    padding-top: 10px;
+.skill-category-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    color: #ffffff;
+    margin-bottom: 15px;
     padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
 }
 
-.copy-skill-item {
-    font-size: 1em;
-    font-style: italic;
-    padding-bottom: 5px;
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-/* skills accordion end */
+
+.skill-list li {
+    font-size: 1.05em;
+    font-family: "PT Sans", sans-serif;
+    color: #e0e0e0;
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.skill-list li:before {
+    content: "▸";
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+/* skills grid end */
 
 /* ABOUT ME layout */
 /* Desktop / tablet */
@@ -248,8 +297,8 @@ button {
 .clip-card {
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border: 1px solid #e0e0e0;
+    background: transparent;
+    border: 1px solid #444;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -258,7 +307,8 @@ button {
 
 .clip-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+    border-color: #666;
 }
 
 .clip-image {
@@ -284,19 +334,19 @@ button {
 }
 
 .clip-headline a {
-    color: #000;
+    color: #e0e0e0;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .clip-headline a:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 
 .clip-description {
     font-size: 0.95em;
     line-height: 1.5;
-    color: #333;
+    color: #c0c0c0;
     margin-bottom: 12px;
     flex: 1;
     font-family: "PT Sans", sans-serif;
@@ -304,7 +354,7 @@ button {
 
 .clip-byline {
     font-size: 0.85em;
-    color: #666;
+    color: #999;
     font-family: "PT Sans", sans-serif;
     margin: 0;
     margin-top: auto;
@@ -329,7 +379,7 @@ button {
 .award-item {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #333;
 }
 
 .award-item:last-child {
@@ -346,8 +396,8 @@ button {
 .award-card {
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border: 1px solid #e0e0e0;
+    background: transparent;
+    border: 1px solid #444;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -356,7 +406,8 @@ button {
 
 .award-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+    border-color: #666;
 }
 
 .award-card-image {
@@ -391,32 +442,32 @@ button {
 }
 
 .award-article-title a {
-    color: #000;
+    color: #e0e0e0;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .award-article-title a:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 
 .judges-quote {
-    background: linear-gradient(to right, #fff5f5, #ffffff);
-    border-left: 5px solid #fc7c7c;
+    background: linear-gradient(to right, #1a1a1a, #0f0f0f);
+    border-left: 5px solid #ffffff;
     padding: 25px 30px;
     margin: 20px 0 25px 0;
     font-style: italic;
-    color: #444;
+    color: #c0c0c0;
     line-height: 1.8;
     font-size: 1.05em;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
     border-radius: 0 4px 4px 0;
 }
 
 .judges-quote:before {
     content: '\201C';
     font-size: 3em;
-    color: #fc7c7c;
+    color: #ffffff;
     line-height: 0;
     vertical-align: -0.35em;
     margin-right: 8px;
@@ -426,7 +477,7 @@ button {
 .judges-quote:after {
     content: '\201D';
     font-size: 3em;
-    color: #fc7c7c;
+    color: #ffffff;
     line-height: 0;
     vertical-align: -0.35em;
     margin-left: 8px;
@@ -436,7 +487,7 @@ button {
 .quote-attribution {
     font-weight: 700;
     font-size: 0.9em;
-    color: #fc7c7c;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 12px;
@@ -451,7 +502,7 @@ button {
 .award-card-content .award-item {
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 .award-card-content .award-item:last-child {
@@ -463,21 +514,21 @@ button {
 .award-card-content .copy-title {
     font-size: 1.15em;
     font-weight: 700;
-    color: #000;
+    color: #e0e0e0;
     display: block;
     margin-bottom: 8px;
 }
 
 .award-card-content .copy-organization {
     font-size: 1em;
-    color: #666;
+    color: #999;
     display: block;
     margin-bottom: 4px;
 }
 
 .award-card-content .copy-date {
     font-size: 0.95em;
-    color: #999;
+    color: #777;
     display: block;
 }
 
@@ -521,17 +572,19 @@ button {
     font-size: 3em;
     padding-left: 80px;
     padding-right: 80px;
-    color: black;
+    color: #e0e0e0;
 }
 
 .contact-item:hover {
-    color: #fc7c7c;
+    color: #ffffff;
 }
 /* contact end */
 
 /* footer start */
 footer {
+    background-color: #000000;
     background-image: url("newspaper.jpg");
+    background-blend-mode: overlay;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     padding-left: 50vw;
