@@ -280,74 +280,59 @@
             <h2 class="section-header">Clips</h2>
             <div class="clips-list">
 
-                <article class="clip-card">
-                    <img src="https://cnsmaryland.org/wp-content/uploads/2025/10/LineChart-1.png" class="clip-image" alt="Chart showing congressional polarization">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://cnsmaryland.org/2025/10/21/congress-disagreeing-on-funding-isnt-new-but-statistically-its-members-disagree-more-than-ever/" target="_blank">Congressional Democrats and Republicans have never been further apart on fiscal policy</a></h3>
-                        <p class="clip-description">Political infighting has shut down the government before. But this time, congressional Democrats and Republicans are further apart ideologically than at any time in the last 80 years.</p>
-                        <p class="clip-byline">By Daranee Balanchandar, Lizzy Alspach, Cat Murphy and Aidan Hughes · Oct. 21, 2025</p>
-                    </div>
-                </article>
-
-                <article class="clip-card">
-                    <img src="https://dims.apnews.com/dims4/default/b5e5c5e/2147483647/strip/true/crop/8256x4644+0+431/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff8%2F34%2Fe9e59c8144f7accd7b6f45b58c73%2Fec99c73f6f644a3ca10bc4b88f1c6dc2" class="clip-image" alt="Train derailment scene">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://apnews.com/article/flammable-trains-rules-congress-hhft-edfc6204a02698722c0d4b4788a34cf0" target="_blank">Congress stalls on new regulations for trains carrying flammable liquids 2 years after Ohio derailment</a></h3>
-                        <p class="clip-description">Two years after a train carrying toxic chemicals derailed in East Palestine, Ohio, Congress has yet to pass legislation requiring stricter safety regulations for trains transporting flammable materials.</p>
-                        <p class="clip-byline">By Daranee Balanchandar, Lizzy Alspach, Cat Murphy and Aidan Hughes · Aug. 22, 2025</p>
-                    </div>
-                </article>
-
-                <article class="clip-card">
-                    <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3712+0+0/resize/1600/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc2%2F2e%2Ff51ee8214a66adea3e42b14e3f1d%2Ftank-cars.jpg" class="clip-image" alt="East Palestine resident">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://www.npr.org/2025/02/03/g-s1-45879/east-palestine-chemicals-two-years-later" target="_blank">2 years after the East Palestine train derailment, residents are still finding chemicals in their homes</a></h3>
-                        <p class="clip-description">Residents in East Palestine, Ohio, continue to discover hazardous chemicals in their homes two years after a Norfolk Southern train carrying toxic materials derailed in their community.</p>
-                        <p class="clip-byline">By Cat Murphy, Liam Bowman and Shradha Dinesh · Feb. 3, 2025</p>
-                    </div>
-                </article>
-
-                <article class="clip-card">
-                    <img src="https://i0.wp.com/quchronicle.com/wp-content/uploads/2024/02/TK-graphic2.jpg?fit=1200%2C741&ssl=1" class="clip-image" alt="TK lacrosse coach graphic">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://quchronicle.com/85524/news/accusations-behind-quinnipiac-womens-lacrosse-coach-sudden-exit/" target="_blank">What happened to TK?</a></h3>
-                        <p class="clip-description">The university allegedly fired women's lacrosse head coach Tanya Kotowicz for playing an injured athlete. But internal documents — and the athlete's dad — say she didn't.</p>
-                        <p class="clip-byline">By Cat Murphy · Feb. 11, 2024</p>
-                    </div>
+                <article class="clip-item">
+                    <h3 class="clip-headline"><a href="https://quchronicle.com/85524/news/accusations-behind-quinnipiac-womens-lacrosse-coach-sudden-exit/" target="_blank">What happened to TK?</a></h3>
+                    <p class="clip-description">The university allegedly fired women's lacrosse head coach Tanya Kotowicz for playing an injured athlete. But internal documents — and the athlete's dad — say she didn't.</p>
+                    <p class="clip-byline">By Cat Murphy · Feb. 11, 2024</p>
                 </article>
         
-                <article class="clip-card">
-                    <img src="https://i0.wp.com/quchronicle.com/wp-content/uploads/2024/02/mapfornews.jpg?fit=1200%2C900&ssl=1" class="clip-image" alt="Cayman Islands map">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://quchronicle.com/85766/featured/quinnipiac-hedge-funds-cayman-islands/" target="_blank">Quinnipiac's $48M hedge fund portfolio</a></h3>
-                        <p class="clip-description">For years, the university has had millions tied up in offshore hedge funds — one of which invests in the fossil fuel industry.</p>
-                        <p class="clip-byline">By Cat Murphy · Feb. 21, 2024</p>
-                    </div>
-                </article>
+                <div class="row g-0 bg-white position-relative">
+                  <div class="col-md-6 mb-md-0 p-md-4">
+                    <img src="https://i0.wp.com/quchronicle.com/wp-content/uploads/2024/02/mapfornews.jpg?fit=1200%2C900&ssl=1" class="w-100" alt="A map of Grand Cayman showing three Quinnipiac University offshore hedge fund accounts worth a combined $48.4 million.">
+                  </div>
+                  <div class="col-md-6 p-4 ps-md-0">
+                    <h3 class="mt-0 copy card-headline">Quinnipiac's $48M hedge fund portfolio</h3>
+                    <h5 class="copy card-subhead">For years, the university has had millions tied up in offshore hedge funds — one of which invests in the fossil fuel industry.</h5>
+                    <h5 class="copy card-date">Feb. 21, 2024</h5>
+                    <a href="https://quchronicle.com/85766/featured/quinnipiac-hedge-funds-cayman-islands/" class="stretched-link"></a>
+                  </div>
+                </div>
 
-                <article class="clip-card">
-                    <img src="https://i0.wp.com/quchronicle.com/wp-content/uploads/2023/11/0303_HaleyRuccioFall_007-2.jpg?fit=1200%2C846&ssl=1" class="clip-image" alt="Quinnipiac clocktower">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://quchronicle.com/85259/news/qu-audit-facing-financial-control-issues/" target="_blank">Financial management a consistent issue for Quinnipiac, audit shows</a></h3>
-                        <p class="clip-description">Quinnipiac University's auditors identified "significant deficiencies" in the university's financial control processes for the fourth time in the last five years.</p>
-                        <p class="clip-byline">By Cat Murphy · Jan. 31, 2024</p>
+                <div class="row g-0 bg-white position-relative">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                      <img src="https://i0.wp.com/quchronicle.com/wp-content/uploads/2023/11/0303_HaleyRuccioFall_007-2.jpg?fit=1200%2C846&ssl=1" class="w-100" alt="Quinnipiac University's clocktower.">
                     </div>
-                </article>
-
-                <article class="clip-card">
-                    <img src="https://quchronicle.com/wp-content/uploads/2024/02/02-24-WHOK7-1.jpg" class="clip-image" alt="Quinnipiac hockey player">
-                    <div class="clip-content">
-                        <h3 class="clip-headline"><a href="https://quchronicle.com/85946/featured/quinnipiac-womens-hockey-returning-to-form-as-quarterfinal-series-with-cornell-looms/" target="_blank">Quinnipiac women's ice hockey returning to form as quarterfinal series with Cornell looms</a></h3>
-                        <p class="clip-description">After gliding into 2024 looking almost unstoppable, Quinnipiac women's ice hockey skidded through the last six weeks of the regular season looking, well, pretty stoppable.</p>
-                        <p class="clip-byline">By Cat Murphy · Feb. 26, 2024</p>
+                    <div class="col-md-6 p-4 ps-md-0">
+                      <h3 class="copy mt-0 card-headline">Financial management a consistent issue for Quinnipiac, audit shows</h3>
+                      <h5 class="copy card-subhead">Quinnipiac University's auditors identified "significant deficiencies" in the university's financial control processes for the fourth time in the last five years.</h5>
+                      <h5 class="copy card-date">Jan. 31, 2024</h5>
+                      <a href="https://quchronicle.com/85259/news/qu-audit-facing-financial-control-issues/" class="stretched-link"></a>
                     </div>
-                </article>
+                </div>
 
-                <article class="clip-item">
-                    <h3 class="clip-headline"><a href="https://quchronicle.com/80443/sports/beat-yale-student-section/" target="_blank">Student section steals the show as Quinnipiac tops Yale in Battle of Whitney Avenue</a></h3>
-                    <p class="clip-description">No tradition in Quinnipiac ice hockey culture looms larger than the phrase "Beat Yale."</p>
-                    <p class="clip-byline">By Cat Murphy · Feb. 22, 2023</p>
-                </article>
+                <div class="row g-0 bg-white position-relative">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                      <img src="https://quchronicle.com/wp-content/uploads/2024/02/02-24-WHOK7-1.jpg" class="w-100" alt="Graduate student forward Julia Nearis scores a wrap-around goal in Quinnipiac's 9-0 win over Harvard in the first round of the ECAC Hockey Tournament.">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0 align-items-center">
+                      <h3 class="mt-0 copy card-headline">Quinnipiac women's ice hockey returning to form as quarterfinal series with Cornell looms</h3>
+                      <h5 class="copy card-subhead">After gliding into 2024 looking almost unstoppable, Quinnipiac women's ice hockey skidded through the last six weeks of the regular season looking, well, pretty stoppable.</h5>
+                      <h5 class="copy card-date">Nov. 26, 2023</h5>
+                      <a href="https://quchronicle.com/85946/featured/quinnipiac-womens-hockey-returning-to-form-as-quarterfinal-series-with-cornell-looms/" class="stretched-link"></a>
+                    </div>
+                </div>
+
+                <div class="row g-0 bg-white position-relative">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                      <img src="https://quchronicle.com/wp-content/uploads/2023/02/J7407819-2.jpg" class="w-100" alt="A Quinnipiac hockey fan holds up a sign in the student section during the Bobcats' game against Yale.">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0 align-items-center">
+                      <h3 class="mt-0 copy card-headline">Student section steals the show as Quinnipiac tops Yale in Battle of Whitney Avenue</h3>
+                      <h5 class="copy card-subhead">No tradition in Quinnipiac ice hockey culture looms larger than the phrase “Beat Yale.”</h5>
+                      <h5 class="copy card-date">Feb. 22, 2023</h5>
+                      <a href="https://quchronicle.com/80443/sports/beat-yale-student-section/" class="stretched-link"></a>
+                    </div>
+                </div>
             </div>
         </div>
         <!--clips end-->     

@@ -238,22 +238,89 @@ button {
 
 
 
-/* clip cards start */
+/* clips grid with cards */
 
-.card-headline {
-    font-size: 1.5em;
-    font-weight: bold;
+.clips-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-.card-subhead {
-    font-size:1em;
-    font-style:italic;
+.clip-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
 }
 
-.card-date {
-    font-size: 1em;
+.clip-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-/* clip cards end */
+
+.clip-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.clip-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.clip-headline {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-family: "PT Serif", serif;
+}
+
+.clip-headline a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.clip-headline a:hover {
+    color: #fc7c7c;
+}
+
+.clip-description {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 12px;
+    flex: 1;
+    font-family: "PT Sans", sans-serif;
+}
+
+.clip-byline {
+    font-size: 0.85em;
+    color: #666;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .clips-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* clips grid end */
 
 
 
