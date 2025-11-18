@@ -127,6 +127,7 @@
 
 #awards {
     margin:0 auto;
+    width: 100%;
 }
 
 #contact {
@@ -244,7 +245,6 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -329,7 +329,6 @@ button {
 /* awards section start */
 
 .awards-container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -349,23 +348,26 @@ button {
 }
 
 .award-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-top: 40px;
 }
 
 .award-card {
+    display: flex;
+    flex-direction: column;
     background: #fff;
-    border: 2px solid #fc7c7c;
+    border: 1px solid #e0e0e0;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
 }
 
 .award-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 16px rgba(252, 124, 124, 0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .award-card-image {
@@ -375,57 +377,172 @@ button {
     display: block;
 }
 
-.award-card-header {
-    background: linear-gradient(135deg, #fc7c7c 0%, #ff9999 100%);
-    padding: 25px;
-    color: white;
-}
-
-.award-article-title {
-    font-size: 1.5em;
+    .award-card-content {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .award-content-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 20px;
+    }.award-article-title {
+    font-size: 1.8em;
     font-weight: 700;
-    line-height: 1.3;
-    margin-bottom: 10px;
+    line-height: 1.2;
+    margin-bottom: 20px;
     font-family: "PT Serif", serif;
+    color: #000;
 }
 
 .award-article-title a {
-    color: white;
+    color: #000;
     text-decoration: none;
-    transition: opacity 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .award-article-title a:hover {
-    opacity: 0.9;
+    color: #fc7c7c;
 }
 
-.award-article-description {
-    font-size: 1em;
-    line-height: 1.4;
+.award-article-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-family: "PT Serif", serif;
+    color: #000;
+    width: 100%;
+}
+
+.judges-quote {
+    background: linear-gradient(to right, #fff5f5, #ffffff);
+    border-left: 5px solid #fc7c7c;
+    padding: 25px 30px;
     margin: 0;
-    font-family: "PT Sans", sans-serif;
-    opacity: 0.95;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    font-size: 1.05em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 0 4px 4px 0;
 }
 
-.award-card-content {
-    padding: 25px;
-}
-
-.award-card-content .award-item {
-    margin-bottom: 25px;
-    padding-bottom: 20px;
+    .awards-list {
+        margin: 0;
+    }.award-card-content .award-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .award-card-content .award-item:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
+    border-bottom: none;
 }
 
-@media (max-width: 768px) {
-    .award-cards {
-        grid-template-columns: 1fr;
-    }
+.award-card-content .copy-title {
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    margin-bottom: 8px;
 }
+
+.award-card-content .copy-organization {
+    font-size: 1em;
+    color: #666;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.award-card-content .copy-date {
+    font-size: 0.95em;
+    color: #999;
+    display: block;
+}
+
+.judges-quote {
+    background: linear-gradient(to right, #fff5f5, #ffffff);
+    border-left: 5px solid #fc7c7c;
+    padding: 25px 30px;
+    margin: 20px 0 25px 0;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    font-size: 1.05em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 0 4px 4px 0;
+}
+
+.judges-quote:before {
+    content: '\201C';
+    font-size: 3em;
+    color: #fc7c7c;
+    line-height: 0;
+    vertical-align: -0.35em;
+    margin-right: 8px;
+    font-family: Georgia, serif;
+}
+
+.judges-quote:after {
+    content: '\201D';
+    font-size: 3em;
+    color: #fc7c7c;
+    line-height: 0;
+    vertical-align: -0.35em;
+    margin-left: 8px;
+    font-family: Georgia, serif;
+}
+
+.quote-attribution {
+    font-weight: 700;
+    font-size: 0.9em;
+    color: #fc7c7c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-family: "PT Sans", sans-serif;
+}
+
+.accessibility-links {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.accessibility-links li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.accessibility-links li:before {
+    content: "•";
+    color: #fc7c7c;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.accessibility-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.95em;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.accessibility-links a:hover {
+    color: #fc7c7c;
+}
+
+
 
 /* awards section end */
 
@@ -453,6 +570,11 @@ button {
 /* footer start */
 footer {
     background-image: url("newspaper.jpg");
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 50vw;
+    padding-right: 50vw;
+    margin-right: calc(-50vw + 50%);
 }
 
 /* footer end */
@@ -460,11 +582,37 @@ footer {
 
 
 
+.about-columns {
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+}
+
+.about-columns .copy {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.about-columns .profile-img-desktop {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-columns .profile-img-desktop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 999px) { 
     #intro-desktop {
         display:none;
+    }
+    
+    .about-columns {
+        grid-template-columns: 1fr;
     }
 
     #intro-mobile {
@@ -472,13 +620,17 @@ footer {
     }
 
     #profile-img-mobile {
-        padding-top:10px;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        margin: 20px auto 0 auto;
+        display: block;
     }
 }
 
 
 @media only screen and (max-width: 1400px) {
-    .col-lg-8 {
+    .col-lg-10 {
         padding-left:50px;
         padding-right:50px;
     }
