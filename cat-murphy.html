@@ -60,6 +60,9 @@
                         <a class="nav-link" href="#awards">Awards</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#featured-stories">Featured Stories</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -69,38 +72,57 @@
 
     <!--masthead start-->
     <div class="masthead px-4 py-5 my-0 text-center">
-        <h1 id="name-banner" class="display-5 fw-bold">Cat Murphy</h1>
-        <h2 id="title" class="display-5">Journalist & Storyteller</h2>
-        <div class="col-lg-10 mx-auto">
-            <ul class="menu justify-content-center">
-                <li class="menu-item">
-                    <a class="menu-link" href="#about-me">About Me</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#experience">Experience</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#education">Education</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#skills">Skills</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#clips">Clips</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#awards">Awards</a>
-                </li>
-                <li class="menu-item spacer-bar">|</li>
-                <li class="menu-item">
-                    <a class="menu-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+        <!-- Photo collage background -->
+        <div class="photo-collage">
+            <div class="photo-item"><img src="IMG_1575.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_4071.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_4588.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_6946.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_7040.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_7751.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_8233.jpeg" alt=""></div>
+            <div class="photo-item"><img src="IMG_9526.jpeg" alt=""></div>
+        </div>
+        
+        <!-- Content overlay -->
+        <div class="masthead-content">
+            <h1 id="name-banner" class="display-5 fw-bold">Cat Murphy</h1>
+            <h2 id="title" class="display-5">Journalist & Storyteller</h2>
+            <div class="col-lg-10 mx-auto">
+                <ul class="menu justify-content-center">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#education">Education</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#clips">Clips</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#awards">Awards</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#featured-stories">Featured Stories</a>
+                    </li>
+                    <li class="menu-item spacer-bar">|</li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <!--masthead end-->
@@ -208,14 +230,10 @@
                     <ul class="skill-list">
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>R</li>
+                        <li>R Studio</li>
                         <li>Flourish</li>
                         <li>Datawrapper</li>
                         <li>Adobe Creative Suite</li>
-                        <li>Microsoft Excel</li>
-                        <li>Dalet Galaxy</li>
-                        <li>Wildmoka</li>
-                        <li>WordPress</li>
                     </ul>
                 </div>
 
@@ -223,15 +241,11 @@
                     <h3 class="skill-category-title">Industry Skills</h3>
                     <ul class="skill-list">
                         <li>AP Style</li>
-                        <li>Newswriting</li>
-                        <li>News Gathering</li>
                         <li>Data Journalism</li>
                         <li>Public Records Requests</li>
                         <li>Copyediting</li>
-                        <li>Interviewing</li>
-                        <li>SEO</li>
-                        <li>Headline Writing</li>
                         <li>Photojournalism</li>
+                        <li>Investigative Reporting</li>
                     </ul>
                 </div>
             </div>
@@ -241,14 +255,13 @@
         <!--clips start-->
         <div id="clips" class="section col-lg-10">
             <h2 class="section-header">Recent Work</h2>
-            <div class="clips-list">
-
+            <div class="clips-scroll-container">
                 <article class="clip-card">
                     <img src="https://cat-murphy.github.io/resume/pardons_screenshot.png" class="clip-image" alt="Trump pardons timeline">
                     <div class="clip-content">
                         <h3 class="clip-headline"><a href="https://cnsmaryland.org/interactives/fall2025/pardons/index.html" target="_blank">Here's who Donald Trump has granted clemency to this year</a></h3>
-                        <p class="clip-description">Trump has granted clemency to some 1,700 people in his second term, most of whom received full pardons. This includes more than 1,500 Jan. 6 defendants covered by a sweeping blanket pardon issued almost immediately after beginning his second term.</p>
-                        <p class="clip-byline">By Cat Murphy · Nov. 18, 2025</p>
+                        <p class="clip-publication">CNS Maryland</p>
+                        <p class="clip-date">Nov. 18, 2025</p>
                     </div>
                 </article>
 
@@ -256,8 +269,8 @@
                     <img src="https://cat-murphy.github.io/resume/graphic_screenshot.png" class="clip-image" alt="Chart showing congressional polarization">
                     <div class="clip-content">
                         <h3 class="clip-headline"><a href="https://cnsmaryland.org/2025/10/21/congress-disagreeing-on-funding-isnt-new-but-statistically-its-members-disagree-more-than-ever/" target="_blank">Congressional Democrats and Republicans have never been further apart on fiscal policy</a></h3>
-                        <p class="clip-description">Political infighting has shut down the government before. But this time, congressional Democrats and Republicans are further apart ideologically than at any time in the last 80 years.</p>
-                        <p class="clip-byline">By Cat Murphy · Oct. 21, 2025</p>
+                        <p class="clip-publication">CNS Maryland</p>
+                        <p class="clip-date">Oct. 21, 2025</p>
                     </div>
                 </article>
 
@@ -265,8 +278,8 @@
                     <img src="https://dims.apnews.com/dims4/default/e03823e/2147483647/strip/true/crop/2665x1777+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff0%2F13%2Faf8944e009aab29a97cb7cce71dc%2F65be639264aa4eb18e6644ead84f47b3" class="clip-image" alt="Train derailment scene">
                     <div class="clip-content">
                         <h3 class="clip-headline"><a href="https://apnews.com/article/flammable-trains-rules-congress-hhft-edfc6204a02698722c0d4b4788a34cf0" target="_blank">Congress stalls on new regulations for trains carrying flammable liquids 2 years after Ohio derailment</a></h3>
-                        <p class="clip-description">Two years after a train carrying toxic chemicals derailed in East Palestine, Ohio, Congress has yet to pass legislation requiring stricter safety regulations for trains transporting flammable materials.</p>
-                        <p class="clip-byline">By Daranee Balanchandar, Lizzy Alspach, Cat Murphy and Aidan Hughes · Aug. 22, 2025</p>
+                        <p class="clip-publication">The Associated Press</p>
+                        <p class="clip-date">Aug. 22, 2025</p>
                     </div>
                 </article>
 
@@ -274,8 +287,8 @@
                     <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3712+0+0/resize/1600/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc2%2F2e%2Ff51ee8214a66adea3e42b14e3f1d%2Ftank-cars.jpg" class="clip-image" alt="East Palestine resident">
                     <div class="clip-content">
                         <h3 class="clip-headline"><a href="https://www.npr.org/2025/02/03/g-s1-45879/east-palestine-chemicals-two-years-later" target="_blank">2 years after the East Palestine train derailment, residents are still finding chemicals in their homes</a></h3>
-                        <p class="clip-description">Residents in East Palestine, Ohio, continue to discover hazardous chemicals in their homes two years after a Norfolk Southern train carrying toxic materials derailed in their community.</p>
-                        <p class="clip-byline">By Cat Murphy, Liam Bowman and Shradha Dinesh · Feb. 3, 2025</p>
+                        <p class="clip-publication">NPR</p>
+                        <p class="clip-date">Feb. 3, 2025</p>
                     </div>
                 </article>
 
@@ -283,18 +296,17 @@
                     <img src="https://cnsmaryland.org/wp-content/uploads/2025/02/derailment_site.jpg" class="clip-image" alt="The Norfolk Southern train derailment site.">
                     <div class="clip-content">
                         <h3 class="clip-headline"><a href="https://cnsmaryland.org/2025/02/03/health-environmental-concerns-divide-east-palestine-two-years-after-train-derailment-toxic-fire/" target="_blank">Health, environmental concerns divide East Palestine two years after train derailment, toxic fire</a></h3>
-                        <p class="clip-description">After the train derailment that blanketed East Palestine in toxic fumes, Norfolk Southern has undertaken a massive cleanup operation. Still, residents complain of ongoing symptoms that they attribute to chemical exposure and question the long-term health consequences.</p>
-                        <p class="clip-byline">By Liam Bowman, Daranee Balanchandar and Cat Murphy · Feb. 3, 2025</p>
+                        <p class="clip-publication">CNS Maryland</p>
+                        <p class="clip-date">Feb. 3, 2025</p>
                     </div>
                 </article>
-
             </div>
         </div>
         <!--clips end-->
 
         <!--awards start-->
-        <div id="awards" class="section">
-            <h2 class="section-header">Awards</h2>
+        <div id="awards" class="section col-lg-10">
+            <h2 class="section-header">Recognitions</h2>
 
             <div class="awards-container">
                 <!-- General Awards -->
@@ -317,105 +329,152 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!--awards end-->
 
-                <!-- Article-specific Award Cards -->
-                <div class="award-cards">
-                    <article class="award-card">
-                        <div class="award-card-content">
-                            <h3 class="award-article-title"><a href="https://quchronicle.com/85524/news/accusations-behind-quinnipiac-womens-lacrosse-coach-sudden-exit/" target="_blank">What happened to TK?</a></h3>
-
-                            <div class="award-content-columns">
-
-                                <div class="awards-list">
-                                    <div class="award-item">
-                                        <div class="copy copy-title">Second Place, 2024 Student Journalism Prize for Investigative Reporting on Intercollegiate Athletics</div>
-                                        <div class="copy copy-organization">Drake Group Education Fund</div>
-                                        <div class="copy copy-date">April 2024</div>
-                                    </div>
-                                    <div class="award-item">
-                                        <div class="copy copy-title">First Place, Sports News Story</div>
-                                        <div class="copy copy-organization">Connecticut Chapter of the Society of Professional Journalists</div>
-                                        <div class="copy copy-date">June 2024</div>
-                                    </div>
-                                    <div class="award-item">
-                                        <div class="copy copy-title">Second Place, News Story</div>
-                                        <div class="copy copy-organization">New England Newspaper & Press Association</div>
-                                        <div class="copy copy-date">June 2024</div>
-                                    </div>
-                                </div>
-
-                                <blockquote class="judges-quote">
-                                    <div class="quote-attribution">New England Newspaper & Press Association:</div>
-                                    Quinnipiac Chronicle reporter Cat Murphy had immediate reason to doubt her university's four-sentence statement wishing the women's lacrosse coach well "in her future endeavors" -- in a different job. Through dogged reporting, Murphy helped her campus understand that the coach had not inappropriately sent an injured player onto the field, as the school had suggested. Murphy overcame many reporting obstacles, guided by terrific sourcing and use of documents.
-                                </blockquote>
-
-                            </div>
+        <!--featured stories start-->
+        <div id="featured-stories" class="section col-lg-10">
+            <h2 class="section-header">Award-Winning Stories</h2>
+            
+            <div class="featured-stories-slider">
+                <div class="slider-container">
+                    <article class="featured-story-card active" data-slide="0">
+                        <div class="featured-story-text">
+                            <h3 class="featured-story-title"><a href="https://quchronicle.com/85524/news/accusations-behind-quinnipiac-womens-lacrosse-coach-sudden-exit/" target="_blank">What happened to TK?</a></h3>
+                            
+                            <p>The university allegedly fired women's lacrosse head coach Tanya Kotowicz for playing an injured athlete. But internal documents — and the athlete's dad — say she didn't.</p>
+                            
+                            <p>"... Athletics administrators apparently informed her on Jan. 2 that the department planned to release a statement the following morning announcing her "resignation."</p>
+                            
+                            <p>Kotowicz pushed back, reportedly refusing to sign the resignation paperwork because she was not, in fact, resigning — she was being fired.</p>
+                            
+                            <p>In the wake of her dismissal, Kotowicz took to Instagram to share a 70-second video compilation of the more than two dozen messages of support she had received from her former athletes.</p>
+                            
+                            <p>'I am so sorry it ended like this,' one such message included in the Jan. 4 post said. 'I hope you know once we win that MAAC Championship it will be for you.'</p>
+                            
+                            <p>Officially, it appears that the university terminated Kotowicz for playing an injured athlete.</p>
+                            
+                            <p>But even that athlete's father, describing the university's investigation as a 'witch hunt,' said he believes Quinnipiac had a pre-existing desire to fire Kotowicz and used a false narrative of the Oct. 22 incident as a pretext.</p>
+                            
+                            <p>'The reason TK was fired was bullshit,' he said. 'I don't want her taking the fall for something that, from our perspective, didn't happen.'"</p>
                         </div>
-                    </article>
 
-                    <article class="award-card">
-                        <div class="award-card-content">
-                            <h3 class="award-article-title"><a href="https://quchronicle.com/85766/featured/quinnipiac-hedge-funds-cayman-islands/" target="_blank">Quinnipiac's $48M hedge fund portfolio</a></h3>
+                        <div class="featured-story-content">
+                            <blockquote class="featured-quote">
+                                "Through dogged reporting, Murphy helped her campus understand that the coach had not inappropriately sent an injured player onto the field, as the school had suggested. Murphy overcame many reporting obstacles, guided by terrific sourcing and use of documents."
+                                <div class="featured-quote-attribution">— New England Newspaper & Press Association</div>
+                            </blockquote>
 
-                            <div class="award-content-columns">
-                                <blockquote class="judges-quote">
-                                    <div class="quote-attribution">New England Newspaper & Press Association:</div>
-                                    Can't wait to see where Cat Murphy lands when her professional journalism career begins. She is a star in the making. She tells this story so naturally, so informationally, and so simply but compellingly.
-                                </blockquote>
-
-                                <div class="awards-list">
-                                    <div class="award-item">
-                                        <div class="copy copy-title">First Place, News Story</div>
-                                        <div class="copy copy-organization">New England Newspaper & Press Association</div>
-                                        <div class="copy copy-date">March 2025</div>
-                                    </div>
-                                    <div class="award-item">
-                                        <div class="copy copy-title">First Place, General Reporting</div>
-                                        <div class="copy copy-organization">Connecticut Chapter of the Society of Professional Journalists</div>
-                                        <div class="copy copy-date">June 2024</div>
-                                    </div>
+                            <div class="featured-awards">
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">Second Place, 2024 Student Journalism Prize for Investigative Reporting on Intercollegiate Athletics</div>
+                                    <div class="featured-award-org">Drake Group Education Fund</div>
+                                </div>
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">First Place, Sports News Story</div>
+                                    <div class="featured-award-org">Connecticut Chapter of the Society of Professional Journalists</div>
+                                </div>
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">Second Place, News Story</div>
+                                    <div class="featured-award-org">New England Newspaper & Press Association</div>
                                 </div>
                             </div>
                         </div>
                     </article>
 
-                    <article class="award-card">
-                        <div class="award-card-content">
-                            <h3 class="award-article-title"><a href="https://quchronicle.com/80130/featured/south-quad-construction-raises-accessibility-concerns/" target="_blank">Campus Accessibility Series</a></h3>
+                    <article class="featured-story-card" data-slide="1">
+                        <div class="featured-story-text">
+                            <h3 class="featured-story-title"><a href="https://quchronicle.com/85766/featured/quinnipiac-hedge-funds-cayman-islands/" target="_blank">Quinnipiac's $48M hedge fund portfolio</a></h3>
+                            
+                            <p>For years, the university has had millions tied up in offshore hedge funds — one of which invests in the fossil fuel industry.</p>
+                            
+                            <p>"... in a different section of Quinnipiac's 2018-19 filing, the university denied having any foreign investments valued at more than $100,000. In fact, in the decade that the IRS had required organizations to disclose foreign transactions, the university had never once reported investing money outside of the United States.</p>
+                            
+                            <p>If not for the IRS's 5% disclosure threshold, it is possible that Quinnipiac's offshore investments may never have come to light.</p>
+                            
+                            <p>The multimillion-dollar discrepancy calls into question the credibility of Quinnipiac's previous 990 filings.</p>
+                            
+                            <p>To put it another way: for the university's older disclosures to have been accurate, Quinnipiac would have had to have placed all $39.8 million into those offshore hedge funds between July 2018 and June 2019.</p>
+                            
+                            <p>But even Quinnipiac's own financial statements do not support this hypothetical.</p>
+                            
+                            <p>Case in point, the university's 2018-19 990 filing indicates that its privately held securities only saw an $8.9 million increase in this 12-month timeframe.</p>
+                            
+                            <p>And while Quinnipiac's 2018-19 audit report does not specifically mention the term "hedge funds," the listed value of one of the university's so-called "alternative" investments corresponds — to the exact dollar — to the value of its offshore hedge fund assets.</p>
+                            
+                            <p>Using that logic to backtrace these assets, it appears that Quinnipiac had held more than $31 million in offshore hedge fund accounts since at least fiscal year 2015-16 — three years before disclosing these investments."</p>
+                        </div>
 
-                            <div class="award-content-columns">
+                        <div class="featured-story-content">
+                            <blockquote class="featured-quote">
+                                "Can't wait to see where Cat Murphy lands when her professional journalism career begins. She is a star in the making. She tells this story so naturally, so informationally, and so simply but compellingly."
+                                <div class="featured-quote-attribution">— New England Newspaper & Press Association</div>
+                            </blockquote>
 
-                                <div class="awards-list">
-                                    <div class="award-item">
-                                        <div class="copy copy-title">First Place, In-depth Reporting</div>
-                                        <div class="copy copy-organization">New England Newspaper & Press Association</div>
-                                        <div class="copy copy-date">March 2024</div>
-                                    </div>
-                                    <div class="award-item">
-                                        <div class="copy copy-title">Stories in the series:</div>
-                                        <ul class="accessibility-links">
-                                            <li><a href="https://quchronicle.com/80130/featured/south-quad-construction-raises-accessibility-concerns/" target="_blank">South Quad construction raises accessibility concerns</a></li>
-                                            <li><a href="https://quchronicle.com/79142/news/quinnipiac-administration-commits-to-campus-accessibility-amid-sga-resolution/" target="_blank">Quinnipiac administration commits to campus accessibility amid SGA resolution</a></li>
-                                            <li><a href="https://quchronicle.com/78713/featured/sga-calls-on-quinnipiac-to-audit-office-of-student-accessibility-over-accessibility-concerns/" target="_blank">SGA calls on Quinnipiac to audit Office of Student Accessibility over accessibility concerns</a></li>
-                                            <li><a href="https://quchronicle.com/78633/news/sidewalk-construction-temporarily-shuts-down-accessible-entrance-to-three-residence-halls/" target="_blank">Sidewalk construction temporarily shuts down accessible entrance to three residence halls</a></li>
-                                            <li><a href="https://quchronicle.com/82886/news/qu-addresses-campus-classroom-accessibility/" target="_blank">QU addresses campus classroom accessibility</a></li>
-                                            <li><a href="https://quchronicle.com/80157/news/qu-addresses-legal-accessibility-concerns/" target="_blank">QU addresses legal accessibility concerns</a></li>
-                                            <li><a href="https://quchronicle.com/77980/news/quinnipiac-yet-to-replace-more-than-200-inaccessible-braille-signs/" target="_blank">Quinnipiac yet to replace more than 200 inaccessible braille signs</a></li>
-                                        </ul>
-                                    </div>
+                            <div class="featured-awards">
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">First Place, News Story</div>
+                                    <div class="featured-award-org">New England Newspaper & Press Association</div>
                                 </div>
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">First Place, General Reporting</div>
+                                    <div class="featured-award-org">Connecticut Chapter of the Society of Professional Journalists</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
 
-                                <blockquote class="judges-quote">
-                                    <div class="quote-attribution">New England Newspaper & Press Association:</div>
-                                    This series is an excellent example of in-depth reporting that effected change. The reporter supported her findings with strong data that clearly showed that the university was grossly noncompliant with the Americans with Disabilities Act. Cat Murphy is a force to be reckoned with - and Quinnipiac is better off because of her.
-                                </blockquote>
+                    <article class="featured-story-card" data-slide="2">
+                        <div class="featured-story-text">
+                            <h3 class="featured-story-title">Campus Accessibility Series</h3>
+                            
+                            <p>QU only addresses accessibility when it has to. Here's how.</p>
+                            
+                            <p>"... Filardi confirmed that various renovations prompted university officials to update individual tactile signs in Tator Hall but repeatedly denied that the signs were replaced specifically to comply with ADA standards pertaining to alterations.</p>
+                            
+                            <p>'It's not about legally,' Filardi said. 'It's about the appropriate use of resources.'</p>
+                            
+                            <p>Rather, Filardi said university officials opted to replace the signs in Tator Hall as part of a larger initiative to standardize the signage on Quinnipiac's campuses.</p>
+                            
+                            <p>"It's more of a branding thing than it's been a code-driven thing," Filardi said. "Eventually, all the signs will be changed."</p>
+                            
+                            <p>However, Filardi also said university officials are not planning to replace the original signage in Tator Hall because the current signs meet the 'needs of the campus.'</p>
+                            
+                            <p>'It's just not common that you just go and change everything because you can,' Filardi said. 'We're not changing them out until we need to.'</p>
+                            
+                            <p>Filardi declined to elaborate on why university officials would not replace the signage in Tator Hall for accessibility purposes.</p>
+                            
+                            <p>'I don't know that I could really answer that,' Filardi said."</p>
+                        </div>
+
+                        <div class="featured-story-content">
+                            <blockquote class="featured-quote">
+                                "This series is an excellent example of in-depth reporting that effected change. The reporter supported her findings with strong data that clearly showed that the university was grossly noncompliant with the Americans with Disabilities Act. Cat Murphy is a force to be reckoned with - and Quinnipiac is better off because of her."
+                                <div class="featured-quote-attribution">— New England Newspaper & Press Association</div>
+                            </blockquote>
+
+                            <div class="featured-awards">
+                                <div class="featured-award-item">
+                                    <div class="featured-award-badge">First Place, In-depth Reporting</div>
+                                    <div class="featured-award-org">New England Newspaper & Press Association</div>
+                                </div>
                             </div>
                         </div>
                     </article>
                 </div>
+
+                <button class="slider-control prev" aria-label="Previous story">‹</button>
+                <button class="slider-control next" aria-label="Next story">›</button>
+                
+                <div class="slider-dots">
+                    <button class="dot active" data-slide="0" aria-label="Story 1"></button>
+                    <button class="dot" data-slide="1" aria-label="Story 2"></button>
+                    <button class="dot" data-slide="2" aria-label="Story 3"></button>
+                </div>
             </div>
         </div>
-        <!--awards end-->
+        <!--featured stories end-->
 
         <!--contact start-->
         <div id="contact" class="section col-lg-12">
@@ -432,44 +491,294 @@
     </div>
     <!--end of page wrapper-->
 
-    <footer class="footer mt-auto py-5 bg-black"></footer>
+    <footer class="footer mt-auto py-5"></footer>
 
-    <script>
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const body = document.body;
-        const icon = themeToggle.querySelector('i');
-        
-        // Check for saved theme preference or default to light
-        const currentTheme = localStorage.getItem('theme') || 'light';
-        body.classList.add(currentTheme + '-theme');
-        updateIcon(currentTheme);
-        
-        themeToggle.addEventListener('click', () => {
-            const isLight = body.classList.contains('light-theme');
-            
-            if (isLight) {
-                body.classList.remove('light-theme');
-                body.classList.add('dark-theme');
-                localStorage.setItem('theme', 'dark');
-                updateIcon('dark');
-            } else {
-                body.classList.remove('dark-theme');
-                body.classList.add('light-theme');
-                localStorage.setItem('theme', 'light');
-                updateIcon('light');
+    <style>
+        /* Featured Stories Slider */
+        .featured-stories-slider {
+            position: relative;
+            width: 100%;
+            overflow: visible;
+        }
+
+        .slider-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .featured-story-card {
+            display: none !important;
+            width: 100%;
+        }
+
+        .featured-story-card.active {
+            display: flex !important;
+            min-height: 750px;
+            align-items: stretch;
+        }
+
+        .featured-story-text {
+            width: 50%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            overflow-y: auto;
+        }
+
+        .featured-story-text p {
+            margin: 0;
+            line-height: 1.6;
+            font-family: "PT Sans", sans-serif;
+            font-style: normal;
+            text-align: left;
+        }
+
+        .featured-story-text p:first-of-type {
+            font-size: 1em;
+            font-weight: 600;
+            color: #b3b3b3;
+            font-style: normal;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .featured-story-content {
+            width: 50% !important;
+            max-height: none !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .featured-quote {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-style: italic !important;
+            text-align: left !important;
+        }
+
+        .featured-quote-attribution {
+            text-align: right !important;
+        }
+
+        .slider-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            font-size: 3rem;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: background 0.3s ease;
+        }
+
+        .slider-control:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .slider-control.prev {
+            left: -80px;
+        }
+
+        .slider-control.next {
+            right: -80px;
+        }
+
+        @media (max-width: 1200px) {
+            .slider-control.prev {
+                left: 0;
             }
-        });
-        
-        function updateIcon(theme) {
-            if (theme === 'dark') {
-                icon.classList.remove('bi-moon-fill');
-                icon.classList.add('bi-sun-fill');
-            } else {
-                icon.classList.remove('bi-sun-fill');
-                icon.classList.add('bi-moon-fill');
+            
+            .slider-control.next {
+                right: 0;
             }
         }
+
+        .slider-dots {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #999;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .dot.active {
+            background: #fff;
+        }
+
+        /* Fade in animation for featured stories */
+        .featured-stories-slider {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .featured-stories-slider.fade-in-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .featured-story-card.active {
+                flex-direction: column !important;
+                min-height: auto !important;
+                overflow-y: auto !important;
+            }
+
+            .featured-story-text {
+                padding: 20px 20px 5px 20px !important;
+                width: 100% !important;
+                overflow: visible !important;
+                max-height: none !important;
+            }
+
+            .featured-story-text p:not(:first-of-type) {
+                display: none !important;
+            }
+
+            .featured-story-text p:first-of-type {
+                display: block !important;
+                font-size: 0.95em !important;
+                margin-bottom: 0 !important;
+            }
+
+            .featured-story-title {
+                display: block !important;
+                font-size: 1.4em !important;
+                margin-bottom: 5px !important;
+            }
+
+            .featured-story-content {
+                width: 100% !important;
+                padding: 5px 20px 20px 20px !important;
+                overflow: visible !important;
+                max-height: none !important;
+            }
+
+            .featured-quote {
+                font-size: 0.9em !important;
+                padding: 15px !important;
+                margin: 15px 0 !important;
+            }
+
+            .featured-awards {
+                gap: 10px !important;
+                margin-top: 10px !important;
+            }
+
+            .featured-story-content {
+                gap: 10px !important;
+            }
+
+            .featured-award-item {
+                padding: 8px 12px !important;
+            }
+
+            .featured-award-badge {
+                font-size: 0.85em !important;
+            }
+
+            .featured-award-org {
+                font-size: 0.75em !important;
+            }
+
+            .slider-control {
+                font-size: 2rem !important;
+                padding: 0.5rem 1rem !important;
+            }
+
+            .slider-dots {
+                margin-top: 1.5rem !important;
+            }
+        }
+    </style>
+
+    <script>
+        // Fade in animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all clip cards, award cards, and featured stories slider
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.clip-card, .award-card');
+            cards.forEach((card, index) => {
+                card.classList.add('fade-in');
+                card.style.transitionDelay = `${index * 0.1}s`;
+                observer.observe(card);
+            });
+
+            // Observe featured stories slider
+            const featuredSlider = document.querySelector('.featured-stories-slider');
+            if (featuredSlider) {
+                observer.observe(featuredSlider);
+            }
+
+            // Initialize custom slider
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.featured-story-card');
+            const dots = document.querySelectorAll('.dot');
+            const prevBtn = document.querySelector('.slider-control.prev');
+            const nextBtn = document.querySelector('.slider-control.next');
+
+            function showSlide(n) {
+                if (n >= slides.length) n = 0;
+                if (n < 0) n = slides.length - 1;
+                
+                currentSlide = n;
+                
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                slides[currentSlide].classList.add('active');
+                dots[currentSlide].classList.add('active');
+            }
+
+            function nextSlide() {
+                showSlide(currentSlide + 1);
+            }
+
+            function prevSlide() {
+                showSlide(currentSlide - 1);
+            }
+
+            if (prevBtn && nextBtn) {
+                prevBtn.addEventListener('click', prevSlide);
+                nextBtn.addEventListener('click', nextSlide);
+            }
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentSlide = index;
+                    showSlide(currentSlide);
+                });
+            });
+        });
     </script>
 
 </body>
